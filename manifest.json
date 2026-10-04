@@ -1,10 +1,33 @@
 {
-  "id": "animecix",
-  "name": "AnimeCix",
+  "name": "Jasoelysss Repo",
   "version": "1.0.0",
-  "description": "AnimeCix provider for Nuvio - Türkçe anime",
-  "author": "Sen",
-  "supportedTypes": ["tv"],
-  "filename": "providers/animecix.js",
-  "enabled": true
+  "author": "jasoelysss",
+  "description": "Nuvio Sağlayıcı Deposu",
+  "resources": [
+    "stream"
+  ],
+  "types": [
+    "movie",
+    "series",
+    "tv"
+  ],
+  "scrapers": [
+    {
+      "id": "animecix",
+      "name": "AnimeCix",
+      "description": "Türkçe anime sağlayıcısı",
+      "version": "1.0.0",
+      "author": "jasoelysss",
+      "supportedTypes": [
+        "series",
+        "tv"
+      ],
+      "filename": "providers/animecix.js",
+      "url": "https://raw.githubusercontent.com/jasoelysss/nuvio-animecix/main/providers/animecix.js",
+      "enabled": true,
+      "formats": [
+        "mp4"
+      ]
+    }
+  ]
 }
