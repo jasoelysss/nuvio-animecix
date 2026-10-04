@@ -1,0 +1,10 @@
+{
+  "id": "animecix",
+  "name": "AnimeCix",
+  "version": "1.0.0",
+  "description": "AnimeCix provider for Nuvio - Türkçe anime",
+  "author": "Sen",
+  "supportedTypes": ["tv"],
+  "filename": "providers/animecix.js",
+  "enabled": true
+}
